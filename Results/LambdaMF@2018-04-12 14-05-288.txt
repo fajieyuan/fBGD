@@ -1,4 +1,0 @@
-Dataset: u.data
-With Setup: given-ratio -r 0.8 -target  r -metricatK 0   --early-stop loss --loss-threshold 2.0
-LambdaMF,0.390202,0.334718,0.127320,0.212581,0.938817,0.126647,0.253494,0.631621,,0,0.5,-1.0,10,0.02,-1.0,0.001,0.001,20,'01:13','00:00'
-

@@ -1,4 +1,0 @@
-Dataset: u.data
-With Setup: given-ratio -r 0.8 -target  r -metricatK 0   --early-stop loss --loss-threshold 2.0
-BPR,0.325769,0.273171,0.108655,0.176055,0.910539,0.099807,0.209037,0.560818,,-1.0,10,0.02,-1.0,0.001,0.001,20,'00:10','00:00'
-

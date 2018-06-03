@@ -1,4 +1,0 @@
-Dataset: D:\path\to\dataset\u.data
-With Setup: given-ratio -r 0.8 -target  r -metricatK 0   --early-stop loss --loss-threshold 2.0
-wMF01_allnegative,0.314952,0.277625,0.106222,0.179229,0.924412,0.096480,0.207457,0.528938,,1.0,4.0,-1.0,10,0.01,-1.0,0.001,0.001,50,'00:04','00:01'
-
