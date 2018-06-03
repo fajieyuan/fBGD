@@ -231,7 +231,7 @@ public abstract class Recommender implements Runnable {
 			testTimestamps = testDao == null ? timestamps : testDao.getTimestamps();
 
 			initMean = 0.0;
-			initStd = 0.1;
+			initStd = 0.01;
 
 			cacheSpec = cf.getString("guava.cache.spec", "maximumSize=200,expireAfterAccess=2m");
 

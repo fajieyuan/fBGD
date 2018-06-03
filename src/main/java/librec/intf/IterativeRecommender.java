@@ -106,6 +106,10 @@ public abstract class IterativeRecommender extends Recommender {
 				regU = regOptions.getFloat("-u", reg);
 				regI = regOptions.getFloat("-i", reg);
 				regB = regOptions.getFloat("-b", reg);
+				
+				regK0= regOptions.getFloat("-k0", reg);
+				regK2= regOptions.getFloat("-k2", reg);
+				regK1= regOptions.getFloat("-k1", reg);
 			}
 
 			numFactors = cf.getInt("num.factors", 10);
