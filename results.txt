@@ -1,3 +1,0 @@
-Dataset: ...tmusic-7days_10_5_map_icd_train.csv
-With Setup: test-set -f data/user-artist-nextmusic-7days_10_5_map_icd_test.csv
-Dataset: ...xtmusic-7days_10_5_map_icd_test.csv
