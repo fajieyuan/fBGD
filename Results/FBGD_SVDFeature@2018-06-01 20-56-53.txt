@@ -1,0 +1,4 @@
+Dataset: u.data
+With Setup: given-ratio -r 0.8 -target  r -metricatK 0   --early-stop loss --loss-threshold 2.0
+FBGD_SVDFeature,0.415287,0.349682,0.147154,0.226963,0.939902,0.142128,0.272747,0.663406,,-1.0,1150.0,0.0,10,0.05,-1.0,0.001,0.001,200,0.1,'01:00','00:01'
+

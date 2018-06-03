@@ -1,0 +1,4 @@
+Dataset: D:\path\to\dataset\ratings.txt
+With Setup: cv -k 5 -p on --rand-seed 1 --test-view all --early-stop RMSE
+PMF,1.113129,1.377026,0.318037,1.106797,1.385439,0.784047,,10, 0.001, -1.0, 0.001, 0.001, 0.001, 100, true,'00:01','00:00'
+

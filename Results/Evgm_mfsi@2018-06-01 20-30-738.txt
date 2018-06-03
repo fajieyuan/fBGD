@@ -1,0 +1,4 @@
+Dataset: u.data
+With Setup: given-ratio -r 0.8 -target  r -metricatK 0   --early-stop loss --loss-threshold 2.0
+Evgm_mfsi,0.408714,0.344633,0.137229,0.218569,0.933332,0.134247,0.261358,0.638430,,-1.0,1150.0,0.0,10,0.05,-1.0,0.001,0.001,200,0.1,'01:01','00:01'
+

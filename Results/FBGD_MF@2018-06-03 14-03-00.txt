@@ -1,0 +1,4 @@
+Dataset: u.data
+With Setup: given-ratio -r 0.8 -target  r -metricatK 0   --early-stop loss --loss-threshold 2.0
+FBGD_MF,0.410817,0.347296,0.144372,0.225958,0.941855,0.142071,0.272174,0.661184,,-1.0,1150.0,0.0,10,0.05,-1.0,0.001,0.001,200,0.1,'00:05','00:00'
+
