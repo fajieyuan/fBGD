@@ -1,0 +1,9 @@
+1-1000,4-63691,1,1241361476000
+
+1-1000 is x in the paper. In Recommender systems, we call it user-field 
+1 is userid. There are 999 users
+1000 is the last song id, it indexes from 1000 since there are 999users.
+
+4-63691 is y in the paper. In Recommender systems, we call it item-field 
+4 is the current song id. There are  63690 songs
+63691 is the current artist id, it indexes from 63691 since there are 63690 songs
