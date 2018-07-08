@@ -87,7 +87,7 @@ public class FBGD_SVDFeature extends SFMachine_Base {
 	@Override
 	protected void buildModel() throws Exception {
 		long startTime = 0;
-		SSparseMatrix Prediction = new SSparseMatrix(numUsers, numItems);//Be careful very show
+		SSparseMatrix Prediction = new SSparseMatrix(numUsers, numItems);
 		V_grad = new DenseMatrix(V);
 		V_grad.init(0);
 		for (int iter = 1; iter <= numIters; iter++) {
@@ -129,7 +129,7 @@ public class FBGD_SVDFeature extends SFMachine_Base {
 				}
 			}
 
-			double[][] S_qff_arr = new double[numFactors][numFactors];// JI(f,f') Sq(d,d')
+			double[][] S_qff_arr = new double[numFactors][numFactors];//Sq(d,d')
 			for (int f = 0; f < numFactors; f++) { // f* in the paper
 				for (int f_ = 0; f_ < numFactors; f_++) {// f in the paper
 					double S_qff_ = 0;
@@ -215,7 +215,7 @@ public class FBGD_SVDFeature extends SFMachine_Base {
 				}
 			}
 
-			double[][] S_pff_arr = new double[numFactors][numFactors];// JI(f,f')
+			double[][] S_pff_arr = new double[numFactors][numFactors];
 			for (int f = 0; f < numFactors; f++) { // f* in the paper
 				for (int f_ = 0; f_ < numFactors; f_++) {// f in the paper
 					double S_pff_ = 0;
