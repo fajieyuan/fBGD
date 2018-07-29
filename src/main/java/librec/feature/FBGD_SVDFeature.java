@@ -28,7 +28,7 @@ import happy.coding.io.Strings;
 
 /**
  * The code can be used for context-aware recommendation, image classification with sparse features, word embedding with prior knowledge 
- * fBGD: A Unified Batch Gradient Approach for Positive Unlabeled Learning 
+ * fBGD: Learning Embeddings From Positive Unlabeled Data with BGD
  * For different datasets, the weighting w0 (e.g., stepping by 2^n) and alpha (0-1.0) should be tuned Carefully, first tune w0 then alpha following the paper. 
  * The default learning rate=0.05 and iterations=300
  * We use a simplified weight in the code, which shows same behavior
