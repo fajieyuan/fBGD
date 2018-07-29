@@ -41,7 +41,7 @@ import librec.intf.IterativeRecommender;
  * 
  * Rendle et al., <strong>
  * <strong>Pairwise ranking Factorization machine (Used by Tecent): https://cloud.tencent.com/developer/article/1063837</strong>,
- * <strong>Performance can be largely improved by LambdaFM</strong>,
+ * <strong>Performance can be largely improved by LambdaFM: https://github.com/fajieyuan/LambdaFM</strong>,
  * @author fajieyuan
  * 
  * For music recommendation smax = numUsers * 300;
